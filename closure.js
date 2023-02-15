@@ -1,19 +1,23 @@
-function makeMultiplier(multiplier) {
+// function makeMultiplier(multiplier) {
 
-    function b () {
-        console.log('the multiplier is: ' + multiplier);
-    }
+//     function b () {
+//         console.log('the multiplier is: ' + multiplier);
+//     }
 
-    b();
+//     b();
 
-    return (
-        function (x) {
-            return multiplier * x;
-        }
-    );
-}
+//     return (
+//         function (x) {
+//             return multiplier * x;
+//         }
+//     );
+// }
 
-let re = makeMultiplier(2);
+// let re = makeMultiplier(2);
 
-console.log(re(20));
+// console.log(re(20));
 
+
+(function a (name) {
+    console.log('hello ' + name);
+}) ('Brian Is Valentine');
