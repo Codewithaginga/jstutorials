@@ -8,7 +8,7 @@ while (num < 100) {
 
     num += 1;
 
-    console.log(num);
+    //console.log(num);
 
 }
 
@@ -16,5 +16,35 @@ while (num < 100) {
 //for loop
 
 for (let num1 = 0; num1 <=100; num1++) {
-    console.log();
+    //console.log();
+}
+
+let i = 0;
+while (i < 5) {
+    //console.log(i);
+    i++;
+}
+
+
+for(let i=0; i<5; i++) {
+
+    //console.log(i);
+
+
+}
+
+//switch
+
+let games = "football";
+switch(games) {
+    case 'throwball':
+        console.log('I hate throwball');
+        break;
+    case 'football':
+        console.log('I love football');
+        break;
+
+    default:
+        console.log('I love other games');
+        break;
 }
