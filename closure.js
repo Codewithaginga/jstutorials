@@ -18,6 +18,37 @@
 // console.log(re(20));
 
 
-(function a (name) {
-    console.log('hello ' + name);
-}) ('Brian Is Valentine');
+// (function a (name) {
+//     console.log('hello ' + name);
+// }) ('Brian Is Valentine');
+
+
+const circle = {
+    radius: 1,
+    location: {
+        x:1,
+        y:2
+    },
+
+    draw: function () {
+        console.log('draw')
+    }
+};
+
+circle.draw();
+
+//factory function
+
+function createCirle(radius) {
+    return{
+        radius,
+    art: function () {
+        console.log('art');
+    }
+    };
+}
+
+const c = createCirle(1);
+c.art();
+
+
