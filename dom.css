@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ff040f;
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    left: 40%;
+    top: 50%;
+}
+
+h1{
+text-align: center;
+}

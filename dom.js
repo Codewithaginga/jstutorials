@@ -1,20 +1,15 @@
+function popUp() {
+    let name = document.getElementById("name").value;
 
-function sayHello() {
-    let reply = document.getElementById('jina').value;
-    console.log(reply); 
-    
-    let mess = 'hello ' + reply;
+    let show = '<h1>Hello ' + name + ' I love you</h1>';
 
-    let output = document.getElementById('content').textContent = mess;
+    document.getElementById("content").innerHTML = show;
 
-    console.log(output);
+    if (name === "aginga") {
+        let title = document.querySelector("#title").textContent;
 
-    if (jina === "student") {
-        let title = document.getElementById("title").textContent;
-        title += " makes improvements";
+        title += 'Today';
 
-        document.getElementById("title").textContent = title;
-    };
+        document.querySelector("#title").textContent = title;
+    }
 }
-
-

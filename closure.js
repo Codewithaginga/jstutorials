@@ -51,4 +51,21 @@ function createCirle(radius) {
 const c = createCirle(1);
 c.art();
 
+//constructor Fuunction
+
+function Run(distance){
+
+    this.distance = distance;
+
+    this.cover = function () {
+        console.log('cover');
+    }
+
+}
+
+const perHour = new Run(38);
+Run.length;
+
+
+
 
