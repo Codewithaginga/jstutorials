@@ -26,3 +26,29 @@ let purchase = {
 
 purchase.totalPay();
 
+let purchase2 = {
+    benz: 1233344,
+    texPay: 12,
+
+    totalPay: function () {
+        let calc = this.benz * this.texPay;
+        console.log('Total Price is ', calc);
+
+    }
+}
+
+purchase2.totalPay();
+
+
+let soccer = {
+    club: true,
+    location: true,
+    position: true
+}
+
+let data = Object.create(soccer);
+
+console.log('The club is Arsenal: ', data.club);
+console.log('The club is located in London ', data.location);
+console.log('They are topping the table' , data.position );
+
